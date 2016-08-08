@@ -1,0 +1,2403 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: =?gb2312?B?Qysr1tC5udTsuq/K/dbQtffTw9Dpuq/K/bXEzsrM4iAtLSDn0efRyMvJ+iA=?=
+	=?gb2312?B?LS0gseCzzLCuusPV37Kpv80=?=
+Date: Thu, 1 Apr 2010 21:29:00 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CAD1E2.582A4620"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5579
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CAD1E2.582A4620
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pfan.cn/miaowei/39878.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:st1 =3D=20
+"urn:schemas-microsoft-com:office:smarttags" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office"><HEAD><TITLE>C++=D6=D0=B9=B9=D4=
+=EC=BA=AF=CA=FD=D6=D0=B5=F7=D3=C3=D0=E9=BA=AF=CA=FD=B5=C4=CE=CA=CC=E2 -- =
+=E7=D1=E7=D1=C8=CB=C9=FA -- =
+=B1=E0=B3=CC=B0=AE=BA=C3=D5=DF=B2=A9=BF=CD</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dgb2312">
+<META =
+content=3D"C++=D6=D0=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=B5=F7=D3=C3=D0=E9=BA=AF=
+=CA=FD=B5=C4=CE=CA=CC=E2 -- =E7=D1=E7=D1=C8=CB=C9=FA -- =
+=B1=E0=B3=CC=B0=AE=BA=C3=D5=DF=B2=A9=BF=CD" name=3Ddescription>
+<META =
+content=3D=B1=E0=B3=CC,=BF=AA=B7=A2,=B1=E0=B3=CC=C2=DB=CC=B3,=B3=CC=D0=F2=
+=D4=B1,=B2=A9=BF=CD,=B1=E0=B3=CC=B2=A9=BF=CD name=3Dkeywords><LINK=20
+href=3D"http://blog.pfan.cn/inc/common.css" type=3Dtext/css =
+rel=3Dstylesheet><LINK=20
+href=3D"http://blog.pfan.cn/template/new2.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<SCRIPT type=3Dtext/javascript>
+<!--
+function strLen(str)
+{
+	var Chinese_OS;
+	var strTest, ch, slen, i;
+	Chinese_OS =3D false;
+	strTest =3D "=D6=D0=CE=C4";
+	if ( strTest.length =3D=3D 2 ) Chinese_OS =3D true;
+	if ( Chinese_OS ) {
+		slen =3D 0;
+		for ( i=3D0; i< str.length; i++){
+			ch =3D str.charCodeAt( i );
+			if ( ch<0 ) ch =3D ch + 65536;
+			if ( ch>255 ) slen =3D slen +1;
+			slen =3D slen +1;
+		}
+	}
+	else
+	{
+		slen =3D str.length
+	}
+	return (slen);
+}
+
+function isEmail(str){
+	var reg =3D =
+/^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+	return reg.test(str);
+}
+
+function check(form) {    =20
+	if (form.getcode && (form.getcode.value)=3D=3D"")
+	{
+		alert("=C7=EB=CA=E4=C8=EB=D1=E9=D6=A4=C2=EB=A3=A1");    =20
+		return false;=20
+	}
+	if (strLen(form.content.value)=3D=3D0)
+	{
+		alert("=C7=EB=CA=E4=C8=EB=C4=DA=C8=DD=A3=A1");    =20
+		return false;=20
+	}
+	if (strLen(form.content.value)>500)
+	{
+		=
+alert("=C4=FA=CA=E4=C8=EB=B5=C4=C4=DA=C8=DD=B3=AC=B9=FD=C1=CB500=D7=D6=A3=
+=AC=C7=EB=D0=DE=B8=C4=BA=F3=D4=D9=B7=A2=CB=CD=A3=A1");    =20
+		return false;=20
+	}
+	if (form.email.value.length > 0)
+	{
+		if(!isEmail(form.email.value))
+		{
+			alert("Email=B8=F1=CA=BD=B2=BB=D5=FD=C8=B7=A3=A1");    =20
+			return false;=20
+		}
+	}
+	form.btn_submit.value =3D =
+"=C6=C0=C2=DB=CC=E1=BD=BB=D6=D0=A3=AC=C7=EB=C9=D4=BA=F3";
+	form.btn_submit.disabled =3D true;
+	return true;    =20
+	form.submit();    =20
+}
+
+var iscode =3D 0;
+function txtfocus(){
+	if (iscode =3D=3D 0)
+	{
+		document.getElementById('code').innerHTML=3D"=D1=E9=D6=A4=C2=EB: =
+<input name=3D\"getcode\" type=3D\"text\" size=3D\"6\" =
+maxlength=3D\"6\"><img src=3D\"http://blog.pfan.cn/code.asp\">  <input =
+type=3D\"submit\" name=3D\"btn_submit\" value=3D\"=CC=E1=BD=BB\">";=20
+		iscode =3D 1;
+	}
+}
+//-->
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.2900.5921" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dglobalheader>
+<DIV id=3Dlogo><A href=3D"http://blog.pfan.cn/">=B5=C7=C2=BD</A> | <A=20
+href=3D"http://www.programfan.com/reg.asp">=D7=A2=B2=E1=D0=C2=D3=C3=BB=A7=
+</A> </DIV>
+<DIV id=3Dmenu><A =
+href=3D"http://blog.pfan.cn/">=B1=E0=B3=CC=B0=AE=BA=C3=D5=DF=B2=A9=BF=CD<=
+/A> | <A=20
+href=3D"http://www.programfan.com/">=B1=E0=B3=CC=B0=AE=BA=C3=D5=DF=CA=D7=D2=
+=B3</A> </DIV></DIV>
+<DIV id=3Dheader>
+<DIV id=3Dtitle>=E7=D1=E7=D1=C8=CB=C9=FA</DIV>
+<DIV id=3Durl><A=20
+href=3D"http://blog.pfan.cn/miaowei">http://blog.pfan.cn/miaowei</A></DIV=
+></DIV>
+<DIV id=3Dmainbody>
+<DIV id=3Dsidebar>
+<DIV class=3Dcomponent1 id=3Dbloginfo>
+<H1>=B2=A9=D6=F7=BD=E9=C9=DC</H1>
+<P class=3Dcontent>
+<CENTER>=B2=A9=D6=F7=A3=BA<BR><IMG height=3D160 =
+src=3D"http://blog.pfan.cn/userpic/4538.jpg"=20
+width=3D150></CENTER>
+<P></P>
+<P =
+class=3Dcontent>=B3=CC=D0=F2=C8=CB=C9=FA=A3=AC=D3=CE=CF=B7=C8=CB=C9=FA=A3=
+=AC=D7=F6=D7=D4=BC=BA=B0=AE=D7=F6 </P></DIV>
+<DIV class=3Dcomponent1 id=3Darttype>
+<H1>=CE=C4=D5=C2=B7=D6=C0=E0</H1>
+<UL class=3Dcontent>
+  <LI><A=20
+  =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_6776_1.html">C/C++</=
+A>
+  <LI><A=20
+  =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_6778_1.html">VC++/MF=
+C</A>
+  <LI><A=20
+  =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_7161_1.html">=B8=FA=CE=
+=D2=D1=A7C#</A>
+  <LI><A=20
+  =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_6779_1.html">HTML/PH=
+P/MySql</A>
+  <LI><A=20
+  =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_6777_1.html">=C9=FA=BB=
+=EE=D4=D3=CC=B8</A>=20
+  <LI><A =
+href=3D"http://blog.pfan.cn/miaowei/articlelist_4538_0_1.html">=CB=F9=D3=D0=
+=CE=C4=D5=C2</A>=20
+  </LI></UL></DIV></DIV>
+<DIV id=3Dmaincontent>
+<H1>=D5=FD=CE=C4</H1>
+<DIV id=3Darticleinfo>
+<H2>C++=D6=D0=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=B5=F7=D3=C3=D0=E9=BA=AF=CA=FD=
+=B5=C4=CE=CA=CC=E2<SPAN class=3Dissuedate>(2008-12-11 =
+10:29:00)</SPAN></H2>
+<P><A =
+title=3D"=B1=A3=B4=E6=D6=C1=B1=E0=B3=CC=B0=AE=BA=C3=D5=DF=CA=D5=B2=D8=BC=D0=
+ myweb.pfan.cn"=20
+href=3D"javascript:d=3Ddocument;t=3Dd.selection?(d.selection.type!=3D'Non=
+e'?d.selection.createRange().text:''):(d.getSelection?d.getSelection():''=
+);void(myweb=3Dwindow.open('http://myweb.pfan.cn/mywebedit.asp?title=3D'+=
+escape(d.title)+'&amp;url=3D'+escape(d.location.href),'myweb','scrollbars=
+=3Dno,width=3D480,height=3D480,left=3D75,top=3D20,status=3Dno,resizable=3D=
+yes'));">=A1=BE=CA=D5=B2=D8=A1=BF</A>=20
+<A =
+href=3D"http://blog.pfan.cn/miaowei/39878.html#comment">=A1=BE=C6=C0=C2=DB=
+=A1=BF</A> <A=20
+href=3D"javascript:window.print()">=A1=BE=B4=F2=D3=A1=A1=BF</A> <A=20
+href=3D"javascript:window.close()">=A1=BE=B9=D8=B1=D5=A1=BF</A> </P>
+<P class=3Dtag>=B1=EA=C7=A9:<A=20
+href=3D"http://blog.pfan.cn/list.asp?blogid=3D4538&amp;tag=3DC%2B%2B"=20
+target=3D_blank>C++</A>&nbsp;<A=20
+href=3D"http://blog.pfan.cn/list.asp?blogid=3D4538&amp;tag=3D%B9%B9%D4%EC=
+%BA%AF%CA%FD"=20
+target=3D_blank>=B9=B9=D4=EC=BA=AF=CA=FD</A>&nbsp;<A=20
+href=3D"http://blog.pfan.cn/list.asp?blogid=3D4538&amp;tag=3D%D0%E9%BA%AF=
+%CA%FD"=20
+target=3D_blank>=D0=E9=BA=AF=CA=FD</A>&nbsp;<A=20
+href=3D"http://blog.pfan.cn/list.asp?blogid=3D4538&amp;tag=3DATL"=20
+target=3D_blank>ATL</A>&nbsp;<A=20
+href=3D"http://blog.pfan.cn/list.asp?blogid=3D4538&amp;tag=3DATL%5FNO%5FV=
+TABLE"=20
+target=3D_blank>ATL_NO_VTABLE</A>&nbsp; </P>
+<DIV id=3Dcontent>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; WORD-BREAK: break-all; LINE-HEIGHT: 18pt; =
+TEXT-ALIGN: left; mso-pagination: widow-orphan"=20
+align=3Dleft><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=D7=A2=A3=BA =D5=E2=C0=EF=CA=C7=B2=CE=BF=BC<SPAN=20
+style=3D"FONT-SIZE: 10.5pt; COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5; mso-ansi-language: EN-US; =
+mso-fareast-language: ZH-CN; mso-bidi-language: =
+AR-SA">=B2=CE=BF=BC</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"FONT-SIZE: 10.5pt; COLOR: #393939; FONT-FAMILY: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5; mso-ansi-language: EN-US; =
+mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; =
+mso-fareast-font-family: =CB=CE=CC=E5">stroustrup</SPAN><SPAN=20
+style=3D"FONT-SIZE: 10.5pt; COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5; mso-ansi-language: EN-US; =
+mso-fareast-language: ZH-CN; mso-bidi-language: =
+AR-SA">=B5=C4=BB=D8=B4=F0=B0=C9</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"FONT-SIZE: 10.5pt; COLOR: #393939; FONT-FAMILY: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5; mso-ansi-language: EN-US; =
+mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; =
+mso-fareast-font-family: =CB=CE=CC=E5">(<A=20
+href=3D"http://www.research.att.com/~bs/bs_faq2.html#vcall"><SPAN=20
+style=3D"COLOR: =
+#6466b3">http://www.research.att.com/~bs/bs_faq2.html#vcall</SPAN></A>)=A3=
+=AC=20
+=B8=F6=C8=CB=BE=F5=B5=C3=B6=D4ATL=D6=D0=B9=D8=D3=DAATL_NO_VATBLE=B5=C4=C0=
+=ED=BD=E2=B7=C7=B3=A3=D3=D0=D3=C3=A3=AC=CD=AC=CA=B1=D2=B2=BF=C9=D2=D4=B6=D4=
+C++=B5=C4=B9=E6=B7=B6=D3=D0=D2=BB=B4=CE=C9=EE=C8=EB=B5=C4=C0=ED=BD=E2=A1=A3=
+</SPAN></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; WORD-BREAK: break-all; LINE-HEIGHT: 18pt; =
+TEXT-ALIGN: left; mso-pagination: widow-orphan"=20
+align=3Dleft><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"FONT-SIZE: 10.5pt; COLOR: #393939; FONT-FAMILY: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5; mso-ansi-language: EN-US; =
+mso-fareast-language: ZH-CN; mso-bidi-language: AR-SA; =
+mso-fareast-font-family: =CB=CE=CC=E5"></SPAN></FONT></SPAN>&nbsp;</P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; WORD-BREAK: break-all; LINE-HEIGHT: 18pt; =
+TEXT-ALIGN: left; mso-pagination: widow-orphan"=20
+align=3Dleft><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=D4=DA=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=B5=F7=D3=C3=D0=E9=B3=C9=D4=B1=
+=BA=AF=CA=FD=A3=AC=CB=E4=C8=BB=D5=E2=CA=C7=B8=F6=B2=BB=BA=DC=B3=A3=D3=C3=B5=
+=C4=BC=BC=CA=F5=A3=AC=B5=AB=D1=D0=BE=BF=D2=BB=CF=C2=BF=C9=D2=D4=BC=D3=C9=EE=
+=B6=D4=D0=E9=BA=AF=CA=FD=BB=FA=D6=C6=BC=B0=B6=D4=CF=F3=B9=B9=D4=EC=B9=FD=B3=
+=CC=B5=C4=C0=ED=BD=E2=A1=A3=D5=E2=B8=F6=CE=CA=CC=E2=D2=B2=BA=CD=D2=BB=B0=E3=
+=D6=B1=B9=DB=C9=CF=B5=C4=C8=CF=CA=B6=D3=D0=CB=F9=B2=EE=D2=EC=A1=A3=CF=C8=BF=
+=B4=BF=B4=CF=C2=C3=E6=B5=C4=C1=BD=B8=F6=C0=E0=B6=A8=D2=E5=A1=A3</FONT></S=
+PAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>struct C180<BR>{<BR></FONT></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1</FONT></SPAN><FONT size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180()=20
+{<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo();<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this-&gt;foo();<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">}<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">virtual=20
+foo() {<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">cout=20
+&lt;&lt; "&lt;&lt; C180.foo this: " &lt;&lt; this &lt;&lt; " vtadr: " =
+&lt;&lt;=20
+*(void**)this &lt;&lt; endl;<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">}<BR>};<BR>struct=20
+C190 : public C180<BR>{<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190()=20
+{}<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">virtual=20
+foo() {<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">cout=20
+&lt;&lt; "&lt;&lt; C190.foo this: " &lt;&lt; this &lt;&lt; " vtadr: " =
+&lt;&lt;=20
+*(void**)this &lt;&lt; endl;<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">}<BR>};=20
+<BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=B8=B8=C0=E0=D6=D0=D3=D0=D2=BB=B8=F6=D0=E9=BA=AF=
+=CA=FD=A3=AC=B2=A2=C7=D2=B8=B8=C0=E0=D4=DA=CB=FC=B5=C4=B9=B9=D4=EC=BA=AF=CA=
+=FD=D6=D0=B5=F7=D3=C3=C1=CB=D5=E2=B8=F6=D0=E9=BA=AF=CA=FD=A3=AC=B5=F7=D3=C3=
+=CA=B1=CB=FC=B2=C9=D3=C3=C1=CB=C1=BD=D6=D6=B7=BD=B7=A8=D2=BB=D6=D6=CA=C7=D6=
+=B1=BD=D3=B5=F7=D3=C3=A3=AC=D2=BB=D6=D6=CA=C7=CD=A8=B9=FD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=B5=F7=D3=C3=A1=A3=CD=AC=CA=B1=D7=D3=C0=E0=D3=D6=
+=D6=D8=D0=B4=C1=CB=D5=E2=B8=F6=D0=E9=BA=AF=CA=FD=A1=A3</SPAN></FONT><SPAN=
+=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=CE=D2=C3=C7=BF=C9=D2=D4=C0=B4=D4=A4=B2=E2=D2=BB=
+=CF=C2=C8=E7=B9=FB=B9=B9=D4=EC=D2=BB=B8=F6</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B6=D4=CF=F3=BB=E1=B7=A2=C9=FA=CA=B2=C3=B4=C7=E9=BF=F6=
+=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1=A1=A1=CE=D2=C3=C7=D6=AA=B5=C0=A3=AC=D4=DA=B9=B9=D4=EC=D2=BB=
+=B8=F6=B6=D4=CF=F3=CA=B1=A3=AC=B9=FD=B3=CC=CA=C7=D5=E2=D1=F9=B5=C4=A3=BA<=
+/FONT></SPAN><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><FONT=20
+size=3D3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></SPAN><F=
+ONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">1)=20
+</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=CA=D7=CF=C8=BB=E1=B0=B4=B6=D4=CF=F3=B5=C4=B4=F3=D0=A1=B5=C3=
+=B5=BD=D2=BB=BF=E9=C4=DA=B4=E6</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">(</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">heap</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=C9=CF=BB=F2=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">stack</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=C9=CF</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">)</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A3=AC</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><FONT=20
+size=3D3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2) =
+</FONT></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B0=D1=D6=B8=CF=F2=D5=E2=BF=E9=C4=DA=B4=E6=B5=C4=D6=B8=D5=EB=
+=D7=F6=CE=AA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=C0=B4=B5=F7=D3=C3=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=
+=CA=FD=A3=AC=B6=D4=D5=E2=BF=E9=C4=DA=B4=E6=BD=F8=D0=D0=B3=F5=CA=BC=BB=AF=A1=
+=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><FONT=20
+size=3D3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3) =
+</FONT></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=C8=E7=B9=FB=B6=D4=CF=F3=D3=D0=B8=B8=C0=E0=BE=CD=BB=E1=CF=C8=
+=B5=F7=D3=C3=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">(</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B2=A2=D2=C0=B4=CE=B5=DD=B9=E9</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">)</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A3=AC</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=C8=E7=B9=FB=D3=D0=B6=E0=B8=F6=B8=B8=C0=E0</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">(</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=B6=E0=D6=D8=BC=CC=B3=D0</SPAN><SPAN =
+
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">)</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BB=E1=D2=C0=B4=CE=B6=D4=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=
+=CA=FD=BD=F8=D0=D0=B5=F7=D3=C3=A3=AC=B2=A2=BB=E1=CA=CA=B5=B1=B5=C4=B5=F7=D5=
+=FB</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=B5=C4=CE=BB=D6=C3=A1=A3=D4=DA=B5=F7=D3=C3=CD=EA=
+=CB=F9=D3=D0=B5=C4=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=BA=F3=A3=AC=D4=
+=D9=D6=B4=D0=D0=D7=D4=BC=BA=B5=C4=B4=FA=C2=EB=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=D5=D5=C9=CF=C3=E6=B5=C4=B7=D6=CE=F6=B9=B9=D4=EC=
+</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=CA=B1=D2=B2=BB=E1=B5=F7=D3=C3</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=A3=AC=D5=E2=CA=B1=D4=DA</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=B5=C4=B5=DA=D2=BB=B8=F6</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=F7=D3=C3=CE=AA=BE=B2=CC=AC=B0=F3=B6=A8=A3=AC=BB=E1=B5=F7=
+=D3=C3=B5=BD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180::foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=A1=A3=B5=DA=B6=FE=B8=F6</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=F7=D3=C3=CA=C7=CD=A8=B9=FD=D6=B8=D5=EB=B5=F7=D3=C3=B5=C4=
+=A3=AC=D5=E2=CA=B1=B6=E0=CC=AC=D0=D0=CE=AA=BB=E1=B7=A2=C9=FA=A3=AC=D3=A6=B8=
+=C3=B5=F7=D3=C3=B5=C4=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190::foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1=A1=A1=D6=B4=D0=D0=C8=E7=CF=C2=B4=FA=C2=EB=A3=BA</FONT></S=
+PAN><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>C190 obj;<BR>obj.foo(); <BR><BR></FONT></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1=A1=A1=BD=E1=B9=FB=CE=AA=A3=BA</FONT></SPAN><SPAN =
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>&lt;&lt; C180.foo this: <st1:chmetcnv UnitName=3D"F" =
+SourceValue=3D"12"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a" =
+SourceValue=3D"7"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: <st1:chmetcnv UnitName=3D"C" =
+SourceValue=3D"45"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0045C</st1:chmetcnv>404<BR>&lt;&lt; C180.foo this: =
+<st1:chmetcnv=20
+UnitName=3D"F" SourceValue=3D"12" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1"=20
+TCSC=3D"0" w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"7" HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" =
+TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: <st1:chmetcnv UnitName=3D"C" =
+SourceValue=3D"45"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0045C</st1:chmetcnv>404<BR>&lt;&lt; C190.foo this: =
+<st1:chmetcnv=20
+UnitName=3D"F" SourceValue=3D"12" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1"=20
+TCSC=3D"0" w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"7" HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" =
+TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: <st1:chmetcnv UnitName=3D"C" =
+SourceValue=3D"45"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0045C</st1:chmetcnv>400<BR=20
+style=3D"mso-special-character: line-break"><BR=20
+style=3D"mso-special-character: =
+line-break"></P><o:p></o:p></FONT></SPAN>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; WORD-BREAK: break-all; TEXT-INDENT: 21pt; =
+LINE-HEIGHT: 18pt; TEXT-ALIGN: left; mso-pagination: widow-orphan; =
+mso-char-indent-count: 2.0"=20
+align=3Dleft><FONT size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=CD=CE=D2=C3=C7=B5=C4=B7=D6=CE=F6=B4=F3=CF=E0=BE=B6=CD=A5=
+=A1=A3=B5=DA=D2=BB=D0=D0=CA=C7=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=D0=D4=CB=D0=D0</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=B5=C3=B5=BD=B5=C4=A3=AC=D5=E2=C0=EF=B5=C4</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=B1=C8=BB=CA=C7=B5=F7=D3=C3</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=D0=B5=C4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=A1=A3=B5=DA=B6=FE=D0=D0=CA=C7=B5=F7=D3=C3</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=D0=B5=C4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this-&gt;foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C3=B5=BD=B5=C4=A3=AC=B4=CB=CA=B1</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=CF=F2=B5=C4=D3=A6=B8=C3=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=D0=E9=B1=ED=B5=D8=D6=B7=A3=AC=B0=B4=D5=D5=B5=F7=D3=C3=
+=B9=E6=D4=F2=A3=AC=D3=A6=B8=C3=CA=C7=B6=AF=CC=AC=B0=F3=B6=A8=A3=AC=BC=B4=A3=
+=AC=B4=CB=CA=B1=C8=F4=C5=C9=C9=FA=C0=E0=B6=D4=B8=C3=D0=E9=BA=AF=CA=FD=CA=B5=
+=CF=D6=B9=FD=A3=AC=D4=F2=D3=A6=B8=C3=B5=F7=D3=C3=C5=C9=C9=FA=C0=E0=B5=C4=D0=
+=E9=BA=AF=CA=FD=A3=AC=D5=E2=C0=EF=CA=C7=D2=BB=B8=F6=C0=FD=CD=E2=A3=AC=CF=C2=
+=C3=E6=BB=E1=CF=EA=CF=B8=BD=B2=B5=BD=A1=A3</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=C1=B4=CB=A3=AC</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=D4=CB=D0=D0=
+=CD=EA=B1=CF=A3=AC=D7=AA=B6=F8=D4=CB=D0=D0</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=A3=AC=B5=AB=CA=C7=D5=E2=C0=EF=
+</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=CA=B2=C3=B4=B6=BC=C3=BB=D3=D0=
+=A1=A3=B5=DA=C8=FD=D0=D0=CA=C7=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">main</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=D6=D0=B5=F7=D3=C3</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">obj.foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C3=B5=BD=B5=C4=A3=AC=D5=E2=C0=EF=D6=B1=BD=D3=BD=F8=C8=EB=
+</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D4=CB=D0=D0=BE=CD=BF=C9=D2=D4=C1=CB=A1=A3</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D5=E2=C0=EF=B1=D8=D0=EB=D7=A2=D2=E2=D2=BB=B5=E3=A3=AC=BE=CD=
+=CA=C7=C7=B0=C1=BD=D0=D0=BA=CD=B5=DA=C8=FD=D0=D0=B5=C4=D0=E9=B1=ED=CA=C7=B2=
+=BB=CD=AC=B5=C4=A3=AC=D5=E2=CA=C7=D2=F2=CE=AA=C7=B0=C1=BD=D0=D0=B5=C4=D0=E9=
+=B1=ED=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=D0=E9=B1=ED=A3=AC=B6=F8=B5=DA=C8=FD=D0=D0=B5=C4=D0=E9=
+=B1=ED=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=B5=C4=D0=E9=B1=ED=A1=A3</SPAN><SPAN =
+
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=C6=E4=CA=B5=D5=E2=D5=FD=CA=C7=B0=C2=C3=D8=CB=F9=D4=DA=A1=A3=
+</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=CE=AA=B4=CB=CE=D2=B2=E9=C1=CB=D2=BB=CF=C2</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C++</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B1=EA=D7=BC=B9=E6=B7=B6=A1=A3=D4=DA</SPAN><st1:chsdate=20
+w:st=3D"on" Year=3D"1899" Month=3D"12" Day=3D"30" IsLunarDate=3D"False"=20
+IsROCDate=3D"False"><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">12.7.3</SPAN></st1:chsdate><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=CC=F5=D6=D0=D3=D0=C3=F7=C8=B7=B5=C4=B9=E6=B6=A8=A1=A3=D5=E2=
+=CA=C7=D2=BB=D6=D6=CC=D8=C0=FD=A3=AC=D4=DA=D5=E2=D6=D6=C7=E9=BF=F6=CF=C2=A3=
+=AC=BC=B4=D4=DA=B9=B9=D4=EC=D7=D3=C0=E0=CA=B1=B5=F7=D3=C3=B8=B8=C0=E0=B5=C4=
+=B9=B9=D4=EC=BA=AF=CA=FD=A3=AC=B6=F8=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=
+=FD=D6=D0=D3=D6=B5=F7=D3=C3=C1=CB=D0=E9=B3=C9=D4=B1=BA=AF=CA=FD=A3=AC=D5=E2=
+=B8=F6=D0=E9=B3=C9=D4=B1=BA=AF=CA=FD=BC=B4=CA=B9=B1=BB=D7=D3=C0=E0=D6=D8=D0=
+=B4=A3=AC=D2=B2=B2=BB=D4=CA=D0=ED=B7=A2=C9=FA=B6=E0=CC=AC=B5=C4=D0=D0=CE=AA=
+=A1=A3=BC=B4=A3=AC=D5=E2=CA=B1=B1=D8=D0=EB=D2=AA=B5=F7=D3=C3=B8=B8=C0=E0=B5=
+=C4=D0=E9=BA=AF=CA=FD=A3=AC=B6=F8=B2=BB=D7=D3=C0=E0=D6=D8=D0=B4=BA=F3=B5=C4=
+=D0=E9=BA=AF=CA=FD=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1=A1=A1=CE=D2=CF=EB=D5=E2=D1=F9=D7=F6=B5=C4=D4=AD=D2=F2=CA=C7=
+=D2=F2=CE=AA=D4=DA=B5=F7=D3=C3=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=CA=
+=B1=A3=AC=B6=D4=CF=F3=D6=D0=CA=F4=D3=DA=D7=D3=C0=E0=B2=BF=B7=D6=B5=C4=B3=C9=
+=D4=B1=B1=E4=C1=BF=CA=C7=BF=CF=B6=A8=BB=B9=C3=BB=D3=D0=B3=F5=CA=BC=BB=AF=B5=
+=C4=A3=AC=D2=F2=CE=AA=D7=D3=C0=E0=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=B5=C4=B4=FA=
+=C2=EB=BB=B9=C3=BB=D3=D0=B1=BB=D6=B4=D0=D0=A1=A3=C8=E7=B9=FB=D5=E2=CA=B1=D4=
+=CA=D0=ED=B6=E0=CC=AC=B5=C4=D0=D0=CE=AA=A3=AC=BC=B4=CD=A8=B9=FD=B8=B8=C0=E0=
+=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=B5=F7=D3=C3=B5=BD=C1=CB=D7=D3=C0=E0=B5=C4=D0=
+=E9=BA=AF=CA=FD=A3=AC=B6=F8=D5=E2=B8=F6=D0=E9=BA=AF=CA=FD=D2=AA=B7=C3=CE=CA=
+=CA=F4=D3=DA=D7=D3=C0=E0=B5=C4=CA=FD=BE=DD=B3=C9=D4=B1=CA=B1=BE=CD=D3=D0=BF=
+=C9=C4=DC=B3=F6=B4=ED=A1=A3</FONT></SPAN><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+<BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=CE=D2=C3=C7=BF=B4=BF=B4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">VC7.1</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=C9=FA=B3=C9=B5=C4=BB=E3=B1=E0=B4=FA=C2=EB=BE=CD=BF=C9=D2=D4=
+=BA=DC=C8=DD=D2=D7=B5=C4=C0=ED=BD=E2=D5=E2=B8=F6=D0=D0=CE=AA=C1=CB=A1=A3<=
+/SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+<BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D5=E2=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=A3=BA</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>01 00426FE0 push ebp <BR>02 00426FE1 mov ebp,esp<BR>03 00426FE3 =
+sub=20
+esp,0CCh<BR>04 00426FE9 push ebx <BR>05 00426FEA push esi <BR>06 =
+00426FEB push=20
+edi <BR>07 00426FEC push ecx <BR>08 00426FED lea =
+edi,[ebp+FFFFFF34h]<BR>09=20
+00426FF3 mov ecx,33h<BR>10 00426FF8 mov eax,0CCCCCCCCh<BR>11 00426FFD =
+rep stos=20
+dword ptr [edi]<BR>12 00426FFF pop ecx <BR>13 00427000 mov dword ptr=20
+[ebp-8],ecx<BR>14 00427003 mov ecx,dword ptr [ebp-8]<BR>15 00427006 call =
+
+0041D451<BR>16 0042700B mov eax,dword ptr [ebp-8]<BR>17 0042700E mov =
+dword ptr=20
+[eax],<st1:chmetcnv UnitName=3D"C" SourceValue=3D"45" HasSpace=3D"False" =
+
+Negative=3D"False" NumberType=3D"1" TCSC=3D"0" =
+w:st=3D"on">45C</st1:chmetcnv>400h<BR>18=20
+00427014 mov eax,dword ptr [ebp-8]<BR>19 00427017 pop edi <BR>20 =
+00427018 pop=20
+esi <BR>21 00427019 pop ebx <BR>22 <st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"42701" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042701A</st1:chmetcnv> add esp,0CCh<BR>23 00427020 cmp =
+ebp,esp<BR>24=20
+00427022 call 0041DDF2<BR>25 00427027 mov esp,ebp<BR>26 00427029 pop ebp =
+<BR>27=20
+<st1:chmetcnv UnitName=3D"a" SourceValue=3D"42702" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" w:st=3D"on">0042702A</st1:chmetcnv> ret <BR=20
+style=3D"mso-special-character: line-break"><BR=20
+style=3D"mso-special-character: =
+line-break"><o:p></o:p></FONT></SPAN></P>
+<P class=3DMsoNormal=20
+style=3D"MARGIN: 0cm 0cm 0pt; WORD-BREAK: break-all; TEXT-INDENT: 21pt; =
+LINE-HEIGHT: 18pt; TEXT-ALIGN: left; mso-pagination: widow-orphan; =
+mso-char-indent-count: 2.0"=20
+align=3Dleft><FONT size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BF=AA=CA=BC=B2=BF=B7=D6=B5=C4=D6=B8=C1=EE=D4=DA=C7=B0=C3=E6=
+=BC=B8=C6=AA=D6=D0=C2=BD=D0=F8=BD=E2=CA=CD=B9=FD=A3=AC=D5=E2=C0=EF=B2=BB=D4=
+=D9=CF=EA=CA=F6=A1=A3=CE=D2=C3=C7=BF=B4=BF=B4=B5=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">15</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=CA=C7=B6=D4=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180::C180()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B5=F7=D3=C3=A3=AC=B8=F9=BE=DD=C7=B0=CE=C4=B5=C4=CB=B5=
+=C3=F7=A3=AC=CE=D2=C3=C7=D6=AA=B5=C0=B4=CB=CA=B1</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">ecx</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=D0=B7=C5=B5=C4=CA=C7</SPAN><SPAN =
+
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=A3=AC=D2=B2=BE=CD=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B6=D4=CF=F3=B5=C4=B5=D8=D6=B7=A1=A3=D5=E2=CA=B1=C8=E7=B9=FB=
+=CC=F8=B5=BD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=C5=FA=CF=F2=B5=C4=B5=D8=D6=B7=BF=B4=BF=B4=BB=E1=
+=B7=A2=CF=D6=D6=B5=CE=AA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">0xcccccccc</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BC=B4=C3=BB=D3=D0=B3=F5=CA=BC=BB=AF=A3=AC=D0=E9=B1=ED=D6=B8=
+=D5=EB=D2=B2=C3=BB=D3=D0=B1=BB=B3=F5=CA=BC=BB=AF=A1=A3=C4=C7=C3=B4=CE=D2=C3=
+=C7=B8=FA=D7=C5=CC=F8=B5=BD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=BF=B4=BF=B4=A1=A3</SPAN></FO=
+NT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>01 00427040 push ebp <BR>02 00427041 mov ebp,esp<BR>03 00427043 =
+sub=20
+esp,0CCh<BR>04 00427049 push ebx <BR>05 <st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"42704" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042704A</st1:chmetcnv> push esi <BR>06 0042704B push edi =
+<BR>07=20
+<st1:chmetcnv UnitName=3D"C" SourceValue=3D"42704" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" w:st=3D"on">0042704C</st1:chmetcnv> push ecx =
+<BR>08=20
+0042704D lea edi,[ebp+FFFFFF34h]<BR>09 00427053 mov ecx,33h<BR>10 =
+00427058 mov=20
+eax,0CCCCCCCCh<BR>11 0042705D rep stos dword ptr [edi]<BR>12 =
+<st1:chmetcnv=20
+UnitName=3D"F" SourceValue=3D"42705" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" w:st=3D"on">0042705F</st1:chmetcnv> pop ecx =
+<BR>13=20
+00427060 mov dword ptr [ebp-8],ecx<BR>14 00427063 mov eax,dword ptr=20
+[ebp-8]<BR>15 00427066 mov dword ptr [eax],<st1:chmetcnv UnitName=3D"C"=20
+SourceValue=3D"45" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">45C</st1:chmetcnv>404h<BR>16 <st1:chmetcnv UnitName=3D"C"=20
+SourceValue=3D"42706" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042706C</st1:chmetcnv> mov ecx,dword ptr [ebp-8]<BR>17 =
+<st1:chmetcnv=20
+UnitName=3D"F" SourceValue=3D"42706" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" w:st=3D"on">0042706F</st1:chmetcnv> call=20
+0041DA<st1:chmetcnv UnitName=3D"C" SourceValue=3D"8" HasSpace=3D"False"=20
+Negative=3D"False" NumberType=3D"1" TCSC=3D"0" =
+w:st=3D"on">8C</st1:chmetcnv><BR>18=20
+00427074 mov ecx,dword ptr [ebp-8]<BR>19 00427077 call =
+0041DA<st1:chmetcnv=20
+UnitName=3D"C" SourceValue=3D"8" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1"=20
+TCSC=3D"0" w:st=3D"on">8C</st1:chmetcnv><BR>20 <st1:chmetcnv =
+UnitName=3D"C"=20
+SourceValue=3D"42707" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042707C</st1:chmetcnv> mov eax,dword ptr [ebp-8]<BR>21 =
+<st1:chmetcnv=20
+UnitName=3D"F" SourceValue=3D"42707" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" w:st=3D"on">0042707F</st1:chmetcnv> pop edi =
+<BR>22=20
+00427080 pop esi <BR>23 00427081 pop ebx <BR>24 00427082 add =
+esp,0CCh<BR>25=20
+00427088 cmp ebp,esp<BR>26 <st1:chmetcnv UnitName=3D"a" =
+SourceValue=3D"42708"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042708A</st1:chmetcnv> call 0041DDF2<BR>27 <st1:chmetcnv =
+UnitName=3D"F"=20
+SourceValue=3D"42708" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0042708F</st1:chmetcnv> mov esp,ebp<BR>28 00427091 pop ebp =
+<BR>29=20
+00427092 ret <BR><BR></FONT></SPAN><FONT size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=BF=B4=BF=B4=B5=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">15</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D0=D0=A3=AC=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=B5=C4=CE=BB=D6=C3=D2=B2=BE=CD=CA=C7=B6=D4=CF=F3=
+=B5=C4=C6=F0=CA=BC=B4=A6=A3=AC=CC=EE=C8=EB=C1=CB=D2=BB=B8=F6</SPAN><SPAN =
+
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">4</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D7=D6=BD=DA=B5=C4=D6=B5</SPAN><SPAN =
+
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">0x<st1:chmetcnv=20
+UnitName=3D"C" SourceValue=3D"45" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1"=20
+TCSC=3D"0" w:st=3D"on">0045C</st1:chmetcnv>404</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A3=AC=C6=E4=CA=B5=D5=E2=BE=CD=CA=C7=CE=D2=C3=C7=C7=B0=C3=E6=
+=B5=C4=B4=F2=D3=A1=B9=FD=B5=C4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=D0=E9=B1=ED=B5=D8=D6=B7=A1=A3=B5=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">16</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A2</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">17</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D0=D0=BA=CD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">18</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A2</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">19</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D0=D0=B7=D6=B1=F0=B5=F7=D3=C3=C1=CB=C1=BD=B4=CE</SPAN><SPA=
+N=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo()</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=BA=AF=CA=FD=A3=AC=D3=C3=B5=C4=B6=BC=CA=C7=BE=B2=CC=AC=B0=F3=
+=B6=A8=A1=A3=D5=E2=B8=F6=BE=CD=D3=D0=B5=E3=C6=E6=B9=D6=A3=AC=D2=F2=CE=AA=B6=
+=D4=BA=F3=D2=BB=B8=F6=B5=F7=D3=C3=CE=D2=C3=C7=CA=B9=D3=C3=C1=CB</SPAN><SP=
+AN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=A3=AC=D5=D5=C0=ED=D3=A6=B8=C3=CA=C7=B6=AF=CC=AC=
+=B0=F3=B6=A8=B2=C5=B6=D4=A1=A3=BF=C9=D5=E2=C0=EF=C8=B4=CA=C7=BE=B2=CC=AC=B0=
+=F3=B6=A8=A3=AC=CE=AA=CA=B2=C3=B4=B1=E0=D2=EB=C6=F7=D2=AA=D7=F6=D5=E2=B8=F6=
+=D3=C5=BB=AF=A3=BF=CE=D2=C3=C7=BC=CC=B3=D0=CD=F9=BA=F3=BF=B4=A1=A3</SPAN>=
+</FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D5=E2=B8=F6=BA=AF=CA=FD=D6=B4=D0=D0=CD=EA=BA=F3=A3=AC=CE=D2=
+=C3=C7=D4=D9=BB=D8=B5=BD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B9=B9=D4=EC=BA=AF=CA=FD=D6=D0=A3=AC=CE=D2=C3=C7=BD=D3=D7=C5=
+=BF=B4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B9=B9=D4=EC=BA=AF=CA=FD=BB=E3=B1=E0=B4=FA=C2=EB=B5=C4=B5=DA=
+</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">17</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D0=D0=A3=AC=D5=E2=C0=EF=D3=D6=D4=DA=B6=D4=CF=F3=B5=C4=C6=F0=
+=CA=BC=B4=A6=D6=D8=D0=C2=CC=EE=C8=EB=C1=CB</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">0x<st1:chmetcnv=20
+UnitName=3D"C" SourceValue=3D"45" HasSpace=3D"False" Negative=3D"False" =
+NumberType=3D"1"=20
+TCSC=3D"0" w:st=3D"on">0045C</st1:chmetcnv>400</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A3=AC=B8=B2=B8=C7=C1=CB=D4=AD=C0=B4=B5=C4=D6=B5=A3=AC=B6=F8=
+=D5=E2=B8=F6=D6=B5=BE=CD=CA=C7=CE=D2=C3=C7=C7=B0=C3=E6=B4=F2=D3=A1=B9=FD=B5=
+=C4=D5=E6=D5=FD=B5=C4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C190</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=D0=E9=B1=ED=B5=D8=D6=B7=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><FONT=20
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=D2=B2=BE=CD=CA=C7=CB=B5</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">VC7.1</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=CA=C7=CD=A8=B9=FD=D4=DA=B5=F7=D3=C3=B9=B9=D4=EC=BA=AF=CA=FD=
+=B5=C4=D5=E6=D5=FD=B4=FA=C2=EB=C7=B0=B0=D1=B6=D4=CF=F3=B5=C4=D0=E9=D6=B8=D5=
+=EB=D6=B5=C9=E8=D6=C3=CE=AA=D6=B8=CF=F2=B6=D4=D3=A6=C0=E0=B5=C4=D0=E9=B1=ED=
+=C0=B4=CA=B5=CF=D6</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: red; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C++</SPAN><SPAN=20
+style=3D"COLOR: red; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: 0pt; =
+mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B9=E6=B7=B6=B5=C4=CF=E0=D3=A6=D3=EF=D2=E5=A1=A3</SPAN><SPA=
+N=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C++</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B1=EA=D7=BC=D6=D0=D6=BB=B9=E6=B6=A8=C1=CB=D0=D0=CE=AA=A3=AC=
+=B2=A2=B2=BB=B9=E6=B6=A8=BE=DF=CC=E5=B1=E0=D2=EB=C6=F7=D4=DA=CA=B5=CF=D6=D5=
+=E2=D2=BB=D0=D0=CE=AA=CA=B1=CB=F9=D3=C3=B5=C4=B7=BD=B7=A8=A1=A3=CF=F3=CE=D2=
+=C3=C7=C9=CF=C3=E6=BF=B4=B5=BD=B5=C4=A3=AC=BC=B4=CA=B9=CA=C7=CD=A8=B9=FD<=
+/SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=B5=F7=D3=C3=A3=AC=B1=E0=D2=EB=C6=F7=D2=B2=B0=D1=
+=CB=FC=D3=C5=BB=AF=CE=AA=BE=B2=CC=AC=B0=F3=B6=A8=A3=AC=D2=B2=BE=CD=CA=C7=CB=
+=B5=BC=B4=CA=B9=B2=BB=D7=F6=D5=E2=B8=F6=D0=E9=D6=B8=D5=EB=B5=C4=B5=F7=D5=FB=
+=D2=B2=B2=BB=BB=E1=D3=D0=B4=ED=A1=A3=D6=AE=CB=F9=D2=D4=D2=AA=B5=F7=D5=FB=CE=
+=D2=CF=EB=BF=C9=C4=DC=CA=C7=B7=C0=D6=B9=D4=DA=B1=BB=B5=F7=D3=C3=B5=C4=D0=E9=
+=B3=C9=D4=B1=D6=D0=D3=D6=CD=A8=B9=FD</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=B8=D5=EB=C0=B4=B5=F7=D3=C3=C6=E4=CB=FB=B5=C4=D0=E9=BA=AF=
+=CA=FD=A3=AC=B2=BB=B9=FD=CB=AD=BB=E1=D5=E2=C3=B4=B1=E4=CC=AC=C4=D8=A3=BF<=
+/SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+<BR><SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp;&nbsp; =
+</SPAN><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=BB=B9=D3=D0=D6=B5=B5=C3=D2=BB=CC=E1=B5=C4=CA=C7=
+=A3=AC</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">VC7.1</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=D0=D3=D0=D2=BB=B8=F6=C0=A9=D5=B9=CA=F4=D0=D4=BF=C9=D2=D4=
+=D3=C3=C0=B4=D2=D6=D6=C6=B1=E0=D2=EB=C6=F7=B2=FA=C9=FA=B6=D4=D0=E9=D6=B8=D5=
+=EB=BD=F8=D0=D0=B5=F7=D5=FB=B5=C4=B4=FA=C2=EB=A1=A3=CE=D2=C3=C7=BF=C9=D2=D4=
+=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=C0=E0=B5=C4=C9=F9=C3=F7=D6=D0=BC=D3=C8=EB=D5=E2=B8=F6=CA=F4=
+=D0=D4=A1=A3</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>struct __declspec(novtable) C180<BR>{<BR></FONT></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1</FONT></SPAN><FONT size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180()=20
+{<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo();<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this-&gt;foo();<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">}<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">virtual=20
+foo() {<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">cout=20
+&lt;&lt; "&lt;&lt; C180.foo this: " &lt;&lt; this &lt;&lt; " vtadr: " =
+&lt;&lt;=20
+*(void**)this &lt;&lt; endl;<BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=A1=A1</SPAN></FONT><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">}<BR>};=20
+<BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=D5=E2=D1=F9=D4=D9=D6=B4=D0=D0=C7=B0=C3=E6=B5=C4=
+=B4=FA=C2=EB=A3=AC=CA=E4=B3=F6=BE=CD=BB=E1=B1=E4=B3=C9=A3=BA</SPAN></FONT=
+><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR><FONT=20
+size=3D3>&lt;&lt; C180.foo this: <st1:chmetcnv UnitName=3D"F" =
+SourceValue=3D"12"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a" =
+SourceValue=3D"7"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: CCCCCCCC<BR>&lt;&lt; C180.foo =
+this:=20
+<st1:chmetcnv UnitName=3D"F" SourceValue=3D"12" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" =
+w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"7" HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" =
+TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: CCCCCCCC<BR>&lt;&lt; C190.foo =
+this:=20
+<st1:chmetcnv UnitName=3D"F" SourceValue=3D"12" HasSpace=3D"False" =
+Negative=3D"False"=20
+NumberType=3D"1" TCSC=3D"0" =
+w:st=3D"on">0012F</st1:chmetcnv><st1:chmetcnv UnitName=3D"a"=20
+SourceValue=3D"7" HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" =
+TCSC=3D"0"=20
+w:st=3D"on">7A</st1:chmetcnv>4 vtadr: <st1:chmetcnv UnitName=3D"C" =
+SourceValue=3D"45"=20
+HasSpace=3D"False" Negative=3D"False" NumberType=3D"1" TCSC=3D"0"=20
+w:st=3D"on">0045C</st1:chmetcnv>400 <BR><BR></FONT></SPAN><FONT =
+size=3D3><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=D3=C9=D3=DA=B1=E0=D2=EB=C6=F7=D2=D6=D6=C6=C1=CB=
+=B6=D4=D0=E9=D6=B8=D5=EB=B5=C4=B5=F7=D5=FB=CB=F9=D2=D4=D4=DA=B5=F7</SPAN>=
+<SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">C180</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=CA=B1=D0=E9=D6=B8=D5=EB=B5=C4=
+=D6=B5=C3=BB=D3=D0=B3=F5=CA=BC=BB=AF=A3=AC=D5=E2=CA=B1=CE=D2=C3=C7=B2=C5=BF=
+=B4=B5=BD=B6=E0=BF=F7=B1=E0=D2=EB=C6=F7=B0=D1=B5=DA=B6=FE=B8=F6=CD=A8=B9=FD=
+</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5">=D6=B8=D5=EB=B6=D4</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">foo</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B5=F7=D3=C3=D3=C5=BB=AF=B3=C9=C1=CB=BE=B2=CC=AC=B0=F3=
+=B6=A8=A3=AC=B7=F1=D4=F2=D3=C9=D3=DA=D0=E9=D6=B8=D5=EB=A3=A8=D6=B8=B5=C4=BE=
+=CD=CA=C7</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">this</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A3=A9=C3=BB=D3=D0=B3=F5=CA=BC=BB=AF=D2=BB=B6=A8=BB=E1=B3=F6=
+=CF=D6=D2=BB=B8=F6=D6=B8=D5=EB=D2=EC=B3=A3=B5=C4=B4=ED=CE=F3=A3=AC=D5=E2=BE=
+=CD=BB=D8=B4=F0=CE=D2=C3=C7=C9=CF=C3=E6=B5=C4=C4=C7=B8=F6=CE=CA=CC=E2=A1=A3=
+</SPAN></FONT><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5"><BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =CB=CE=CC=E5"><FONT=20
+size=3D3>=A1=A1=A1=A1=D4=DA=D5=E2=D6=D6=C7=E9=BF=F6=CF=C2=B2=FA=C9=FA=B5=C4=
+=BB=E3=B1=E0=B4=FA=C2=EB=CE=D2=BE=CD=B2=BB=C1=D0=C1=CB=A3=AC=D3=D0=D0=CB=C8=
+=A4=B5=C4=C5=F3=D3=D1=BF=C9=D2=D4=D7=D4=BC=BA=C8=A5=BF=B4=D2=BB=BF=B4=A1=A3=
+=C1=ED=CD=E2=B6=D4=D3=DA=CE=F6=B9=B9=BA=AF=CA=FD=B5=C4=B5=F7=D3=C3=A3=AC=D2=
+=B2=C7=EB=D3=D0=D0=CB=C8=A4=B5=C4=C5=F3=D3=D1=D7=D4=D0=D0=B7=D6=CE=F6=D2=BB=
+=CF=C2=A1=A3</FONT></SPAN><FONT=20
+size=3D3><SPAN lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+<BR><BR></SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=A1=A1=A1=A1=C1=ED=CD=E2=D5=E2=B8=F6=CA=F4=D0=D4=D4=DA</SPA=
+N><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">ATL</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B4=FA=C2=EB=D6=D0=B4=F3=C1=BF=B5=C4=CA=B9=D3=C3=A1=A3=
+=D4=DA</SPAN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">ATL</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=D6=D0=BD=D3=BF=DA=D2=BB=B0=E3=CE=AA=B4=BF=D0=E9=BB=F9=C0=E0=
+=A3=AC=C8=E7=B9=FB=B2=BB=D3=C3=D5=E2=B8=F6=D3=C5=BB=AF=CA=F4=D0=D4=A3=AC=D3=
+=C9=D3=DA=D4=DA=D7=D3=C0=E0=BC=B4=CA=B5=CF=D6=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=
+=CA=FD=D6=D0=D2=AA=B5=F7=D3=C3=B8=B8=C0=E0=B5=C4=B9=B9=D4=EC=BA=AF=CA=FD=A3=
+=AC=B6=F8=B1=E0=D2=EB=C6=F7=B2=FA=C9=FA=B5=C4=B8=B8=C0=E0=B9=B9=D4=EC=BA=AF=
+=CA=FD=D3=D6=D2=AA=C9=E8=D6=C3=D0=E9=D6=B8=D5=EB=B5=C4=D6=B5=A1=A3=CB=F9=D2=
+=D4=B1=E0=D2=EB=C6=F7=B1=D8=D0=EB=D2=AA=B0=D1=B8=B8=C0=E0=B5=C4=D0=E9=B1=ED=
+=B9=B9=BD=A8=B3=F6=C0=B4=A1=A3=B6=F8=CA=B5=BC=CA=C9=CF=D5=E2=B8=F6=D0=E9=B1=
+=ED=CA=C7=C3=BB=D3=D0=C8=CE=BA=CE=D2=E2=D2=E5=B5=C4=A3=AC=D2=F2=CE=AA</SP=
+AN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">ATL</SPAN><SPAN=20
+style=3D"COLOR: #393939; FONT-FAMILY: =CB=CE=CC=E5; mso-font-kerning: =
+0pt; mso-ascii-font-family: Verdana; mso-hansi-font-family: Verdana; =
+mso-bidi-font-family: =
+=CB=CE=CC=E5">=B5=C4=B4=BF=D0=E9=BD=D3=BF=DA=C0=E0=B5=C4=D0=E9=BA=AF=CA=FD=
+=B6=BC=CA=C7=CE=DE=CA=B5=CF=D6=B5=C4=A1=A3=D5=E2=D1=F9=B2=BB=BD=F6=BD=F6=CA=
+=C7=B6=E0=C1=CB=BC=B8=D0=D0=CE=DE=D3=C3=B5=C4=C9=E8=D6=B5=D6=B8=C1=EE=A3=AC=
+=CD=AC=CA=B1=D2=B2=C0=CB=B7=D1=C1=CB=BF=D5=BC=E4=A1=A3=D3=D0=D0=CB=C8=A4=B5=
+=C4=C5=F3=D3=D1=BF=C9=D2=D4=D7=D4=D0=D0=D1=E9=D6=A4=D2=BB=CF=C2=A1=A3</SP=
+AN><SPAN=20
+lang=3DEN-US=20
+style=3D"COLOR: #393939; FONT-FAMILY: Verdana; mso-font-kerning: 0pt; =
+mso-bidi-font-family: =CB=CE=CC=E5">=20
+<o:p></o:p></SPAN></FONT></P></DIV>
+<P class=3Dotherinfo>=D4=C4=B6=C1=A3=A81825=A3=A9 | =
+=C6=C0=C2=DB=A3=A82=A3=A9| <A=20
+onclick=3D"window.clipboardData.setData('text','http://blog.pfan.cn/miaow=
+ei/39878.html');alert('=C1=B4=BD=D3=B8=B4=D6=C6=B3=C9=B9=A6');"=20
+href=3D"javascript:;">=B8=B4=D6=C6=C1=B4=BD=D3</A></P>
+<P=20
+class=3Dgrayfont><BR>=B0=E6=C8=A8=C9=F9=C3=F7=A3=BA=B1=E0=B3=CC=B0=AE=BA=C3=
+=D5=DF=CD=F8=D5=BE=CE=AA=B4=CB=B2=A9=BF=CD=B7=FE=CE=F1=CC=E1=B9=A9=C9=CC=A3=
+=AC=C8=E7=B1=BE=CE=C4=C7=A3=C9=E6=B5=BD=B0=E6=C8=A8=CE=CA=CC=E2=A3=AC=B1=E0=
+=B3=CC=B0=AE=BA=C3=D5=DF=CD=F8=D5=BE=B2=BB=B3=D0=B5=A3=CF=E0=B9=D8=D4=F0=C8=
+=CE=A3=AC=C8=E7=D3=D0=B0=E6=C8=A8=CE=CA=CC=E2=C7=EB=D6=B1=BD=D3=D3=EB=B1=BE=
+=CE=C4=D7=F7=D5=DF=C1=AA=CF=B5=BD=E2=BE=F6=A1=A3=D0=BB=D0=BB=A3=A1</P><!-=
+-<p class=3D"trackback"><a =
+name=3D"trackback"></a>=D2=FD=D3=C3=B5=D8=D6=B7=A3=BA<a =
+href=3D"http://blog.pfan.cn/trackback.asp?id=3D39878">http://blog.pfan.cn=
+/trackback.asp?id=3D39878</a>//-->
+<DIV id=3Dcommentlist>
+<H2>=C6=C0=C2=DB<A name=3Dcomment></A></H2>
+<DL>
+  <DT>=C6=C0=C2=DB=C8=CB: =C4=E4=C3=FB =B7=A2=B2=BC=CA=B1=BC=E4: =
+2008-12-27 15:39:00=20
+  =
+<DD>&lt;a&nbsp;href=3Dhttp://www.xofam.cn/jianya.html&gt;=BC=F5=D1=B9=B7=A7=
+&lt;/a&gt;<BR>&lt;A&nbsp;href=3Dhttp://www.xofam.cn/za.html&gt;=D5=A2=B7=A7=
+&lt;/A&gt;<BR>&lt;A&nbsp;href=3Dhttp://www.xofam.cn/anquan.html&gt;=B0=B2=
+=C8=AB=B7=A7&lt;/A&gt;&nbsp;<BR>&lt;a&nbsp;href=3Dhttp://www.xofam.cn/die=
+fa.html&gt;=B5=FB=B7=A7&lt;/a&gt;<BR>&lt;A&nbsp;href=3Dhttp://www.xofam.c=
+n/jiezi.html&gt;=BD=D8=D6=B9=B7=A7&lt;/A&gt;<BR>&lt;A&nbsp;href=3Dhttp://=
+www.xofam.cn/zihui.html&gt;=D6=B9=BB=D8=B7=A7&lt;/A&gt;<BR>&lt;A&nbsp;hre=
+f=3Dhttp://www.xofam.cn/gemo.html&gt;=B8=F4=C4=A4=B7=A7&lt;/A&gt;=20
+  </DD></DL>
+<DL>
+  <DT>=C6=C0=C2=DB=C8=CB: pengdehuai1988 =B7=A2=B2=BC=CA=B1=BC=E4: =
+2008-12-23 14:25:00=20
+  =
+<DD>=CE=D2=BB=B9=CA=C7=B8=F6=B3=F5=D1=A7=D5=DF=A3=AC=B8=D5=D1=A7C++,=BF=B4=
+=D5=E2=C6=AA=CE=C4=D5=C2=CA=B1=A3=AC=CE=D2=D6=BB=CA=C7=B6=AE=B5=C3=C0=EF=C3=
+=E6=BD=B2=B5=C4=C3=FB=B4=CA=B8=C5=C4=EE=A3=AC=BE=DF=CC=E5=D4=CB=D3=C3=BB=B9=
+=B2=BB=BB=E1=A1=A3=A1=A3=A1=A3 </DD></DL></DIV>
+<DIV id=3Daddcomment>
+<H2>=B7=A2=B1=ED=C6=C0=C2=DB<A name=3Daddcomment></A></H2>
+<FORM name=3Dfrm_comment onsubmit=3D"return check(this);" =
+method=3Dpost><INPUT=20
+type=3Dhidden value=3D39878 name=3Darticleid> <INPUT type=3Dhidden =
+value=3D4538=20
+name=3Dblogid>=20
+<P>=C4=FA=B5=C4=EA=C7=B3=C6: <INPUT maxLength=3D20 size=3D30 =
+name=3Dname> =EA=C7=B3=C6=B2=BB=CC=EE=CE=AA=A1=B0=C4=E4=C3=FB=A1=B1</P>
+<P>=C4=FA=B5=C4Email: <INPUT maxLength=3D50 size=3D30 name=3Demail> =
+=A3=A8=BF=C9=D1=A1=A3=A9 </P>
+<P>=C6=C0=C2=DB=C4=DA=C8=DD:(=D7=D6=CA=FD=C7=EB=BF=D8=D6=C6=D4=DA500=D7=D6=
+=D2=D4=C4=DA)<BR><TEXTAREA onfocus=3Dtxtfocus() name=3Dcontent rows=3D8 =
+cols=3D80></TEXTAREA>=20
+</P>
+<P id=3Dcode></P></FORM></DIV></DIV></DIV></DIV>
+<DIV id=3Dfooter>
+<P><A =
+href=3D"http://www.programfan.com/aboutus.asp">=B9=D8=D3=DA=B1=BE=D5=BE</=
+A> - <A=20
+href=3D"http://www.programfan.com/daohang.asp">=CD=F8=D5=BE=B5=BC=BA=BD</=
+A> - <A=20
+href=3D"http://www.programfan.com/ad.asp">=B9=E3=B8=E6=B7=FE=CE=F1</A> - =
+<A=20
+href=3D"http://www.programfan.com/joinus.asp">=B3=CF=D1=FB=BC=D3=C3=CB</A=
+> - <A=20
+href=3D"http://www.programfan.com/contact.asp?subject=3D=B9=D8=D3=DA=CD=F8=
+=D5=BE">=C1=AA=CF=B5=D5=BE=B3=A4</A> - <A=20
+href=3D"http://www.programfan.com/friendlink.asp">=D3=D1=C7=E9=C1=B4=BD=D3=
+</A> - <A=20
+href=3D"http://www.programfan.com/sponsor.asp">=D4=DE=D6=FA=B1=BE=D5=BE</=
+A> - <A=20
+href=3D"http://blog.pfan.cn/yaozheng">=B1=BE=D5=BE=B2=A9=BF=CD</A> </P>
+<P>Copyright&copy; 1999-2008 <A =
+href=3D"http://www.programfan.com/">Programfan.com</A>.=20
+All Rights Reserved</P>
+<P>=CD=F8=D5=BE=D6=C6=D7=F7&amp;=CE=AC=BB=A4=A3=BAHannibal =
+&nbsp;&nbsp;&nbsp;Email: <A=20
+href=3D"mailto:webmaster@pfan.cn">webmaster@pfan.cn</A>
+<SCRIPT language=3DJavaScript=20
+src=3D"http://s35.cnzz.com/stat.php?id=3D1793701&amp;web_id=3D1793701&amp=
+;show=3Dpic1"=20
+charset=3Dgb2312></SCRIPT>
+ </P></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CAD1E2.582A4620
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://blog.pfan.cn/userpic/4538.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAGRAlUDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDnPEGh
+6XpmxYbK1DH1t4z/AOy1iJZQOMiztP8AwGj/APiavz3r6ncZc5PvSyDyAFBFS9WJIpxWNq7YaztB
+/wBu0f8A8TU502yPAsrX6/Zo/wD4mrEbKFyRSPJkhRwKZRXXTbLGDZ2hP/XtH/8AE002FipwbO0z
+/wBe8f8A8TVtMnmoigLncaYEX9nWJBK2dpj/AK94/wD4moms7JTzaWmP+vaP/wCJq25KrtQdarSb
+ANrVDuBXkt7Td8lraY/69o//AImquINxxa2mM/8APrF/8TWrBbK4OBxVG5thFKcdK5a85LVMiXkN
+8q3Zci1tB/26x/8AxNIbaJkysFop/wCvSL/4mmbivBHFTocqAK43WqL7Ri5SRSNu6k/uLIj/AK9I
+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
+FABRRRQAUUUUAFFFFABRRRQB/9k=
+
+------=_NextPart_000_0000_01CAD1E2.582A4620
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pfan.cn/inc/common.css
+
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.clear {
+	CLEAR: both
+}
+.redfont {
+	COLOR: red
+}
+.grayfont {
+	COLOR: #999999
+}
+#globalheader {
+	BACKGROUND: url(../image/toolbarbg.jpg) #eeeeee repeat-x left top; =
+WIDTH: 100%; COLOR: #000000; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+#globalheader A {
+	COLOR: #333333
+}
+#globalheader #logo {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; FLOAT: left; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px
+}
+#globalheader #menu {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 10px; FLOAT: right; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px
+}
+#footer {
+	CLEAR: both; MARGIN-TOP: 30px
+}
+#footer P {
+	HEIGHT: 25px; TEXT-ALIGN: center
+}
+
+------=_NextPart_000_0000_01CAD1E2.582A4620
+Content-Type: text/css;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pfan.cn/template/new2.css
+
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: url(bg2.jpg) #a80a00 no-repeat center =
+30px; LINE-HEIGHT: 20px
+}
+A {
+	COLOR: #8f0101; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #8f0101; TEXT-DECORATION: underline
+}
+#header {
+	MARGIN: auto; WIDTH: 960px; HEIGHT: 250px
+}
+#header #title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 40px; FONT-WEIGHT: bold; FONT-SIZE: =
+18px; PADDING-BOTTOM: 10px; COLOR: #ffffff; PADDING-TOP: 100px
+}
+#header A {
+	COLOR: #ffffff
+}
+#footer A {
+	COLOR: #ffffff
+}
+#header #url {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 40px; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 0px
+}
+#sidebar {
+	FLOAT: left; WIDTH: 250px
+}
+.component1 {
+	BORDER-RIGHT: #9c9c9c 1px solid; BORDER-TOP: #9c9c9c 1px solid; =
+MARGIN-BOTTOM: 15px; BORDER-LEFT: #9c9c9c 1px solid; BORDER-BOTTOM: =
+#9c9c9c 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.component1 H1 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f0101; =
+LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f0c832
+}
+.component1 .content {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; =
+PADDING-TOP: 6px
+}
+.component1 LI {
+	MARGIN-LEFT: 20px; LIST-STYLE-TYPE: disc
+}
+#mainbody {
+	MARGIN: auto; WIDTH: 960px
+}
+#maincontent {
+	BORDER-RIGHT: #9c9c9c 1px solid; BORDER-TOP: #9c9c9c 1px solid; FLOAT: =
+right; BORDER-LEFT: #9c9c9c 1px solid; WIDTH: 700px; BORDER-BOTTOM: =
+#9c9c9c 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#maincontent H1 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f0101; =
+LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f0c832
+}
+#maincontent #articlelist {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; MARGIN: =
+15px; PADDING-TOP: 15px
+}
+#maincontent #articlelist .article {
+	MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #aaa 1px =
+dashed
+}
+#maincontent .top {
+	FONT-WEIGHT: bold; COLOR: red
+}
+#articlelist .article H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; HEIGHT: 30px
+}
+#articlelist .article H2 .issuedate {
+	PADDING-LEFT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: =
+#999999
+}
+#articlelist .article .otherinfo {
+	TEXT-ALIGN: right
+}
+#articlelist .turnall A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: red
+}
+#articlelist .arttitlelist LI {
+	FONT-SIZE: 14px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#articlelist .arttitlelist LI .issuedate {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; COLOR: #999999
+}
+#pagelist {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; =
+PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+#pagelist A {
+	BORDER-RIGHT: #c9caca 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: =
+#c9caca 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; MARGIN-LEFT: =
+5px; BORDER-LEFT: #c9caca 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: =
+#c9caca 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#pagelist .curpage {
+	BORDER-RIGHT: #c9caca 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: =
+#c9caca 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: =
+2px; MARGIN-LEFT: 5px; BORDER-LEFT: #c9caca 1px solid; COLOR: #fff; =
+PADDING-TOP: 3px; BORDER-BOTTOM: #c9caca 1px solid; BACKGROUND-COLOR: =
+#999
+}
+#articleinfo {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; =
+PADDING-TOP: 20px
+}
+#articleinfo H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; HEIGHT: 30px
+}
+#articleinfo H2 .issuedate {
+	PADDING-LEFT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: =
+#999999
+}
+#articleinfo .tag {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 30px; HEIGHT: 30px; TEXT-ALIGN: =
+right
+}
+#articleinfo .otherinfo {
+	LINE-HEIGHT: 30px; PADDING-TOP: 10px; HEIGHT: 30px; TEXT-ALIGN: right
+}
+#commentlist H2 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f0101; =
+LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f0c832
+}
+#addcomment H2 {
+	PADDING-LEFT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f0101; =
+LINE-HEIGHT: 22px; HEIGHT: 22px; BACKGROUND-COLOR: #f0c832
+}
+#commentlist DL {
+	MARGIN: 15px; BORDER-BOTTOM: #aaa 1px dashed
+}
+#commentlist DT {
+	COLOR: #666666
+}
+#addcomment P {
+	MARGIN-LEFT: 20px; LINE-HEIGHT: 30px
+}
+#footer P {
+	COLOR: #fff
+}
+
+------=_NextPart_000_0000_01CAD1E2.582A4620
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://s35.cnzz.com/stat.php?id=1793701&web_id=1793701&show=pic1
+
+function gv_cnzz(of){=0A=
+	var es =3D document.cookie.indexOf(";",of);=0A=
+	if(es=3D=3D-1) es=3Ddocument.cookie.length;=0A=
+	return unescape(document.cookie.substring(of,es));=0A=
+}=0A=
+function gc_cnzz(n){=0A=
+	var arg=3Dn+"=3D";=0A=
+	var alen=3Darg.length;=0A=
+	var clen=3Ddocument.cookie.length;=0A=
+	var i=3D0;=0A=
+	while(i<clen){=0A=
+	var j=3Di+alen;=0A=
+	if(document.cookie.substring(i,j)=3D=3Darg) return gv_cnzz(j);=0A=
+	i=3Ddocument.cookie.indexOf(" ",i)+1;=0A=
+	if(i=3D=3D0)	break;=0A=
+	}=0A=
+	return -1;=0A=
+}=0A=
+var cnzz_ed=3Dnew Date();=0A=
+var cnzz_now=3DparseInt(cnzz_ed.getTime());=0A=
+var =
+cnzz_data=3D'&r=3D'+escape(document.referrer.substr(0,512))+'&lg=3D'+esca=
+pe(navigator.systemLanguage)+'&ntime=3D0.27097100 1270125845';=0A=
+var cnzz_a=3Dgc_cnzz("cnzz_a1793701");=0A=
+if(cnzz_a!=3D-1) cnzz_a=3DparseInt(cnzz_a)+1;=0A=
+else cnzz_a=3D0;=0A=
+var rt=3DparseInt(gc_cnzz("rtime"));=0A=
+var lt=3DparseInt(gc_cnzz("ltime"));=0A=
+var cnzz_st =3D parseInt((cnzz_now-lt)/1000);=0A=
+var cnzz_sin =3D gc_cnzz("sin1793701");=0A=
+if(cnzz_sin=3D=3D-1) cnzz_sin=3D'none';=0A=
+if( document.referrer.split('/')[2]!=3Ddocument.domain ) =
+cnzz_sin=3Ddocument.referrer;=0A=
+var cnzz_eid=3Dgc_cnzz("cnzz_eid");=0A=
+if(cnzz_eid=3D=3D-1) =
+cnzz_eid=3DMath.floor(Math.random()*100000000)+"-"+1270125845+"-"+documen=
+t.referrer.substr(0,64);=0A=
+if(lt<1000000){rt=3D0;lt=3D0;}=0A=
+if(rt<1) rt=3D0;=0A=
+if(((cnzz_now-lt)>500*86400)&&(lt>0)) rt++;=0A=
+cnzz_data=3Dcnzz_data+'&repeatip=3D'+cnzz_a+'&rtime=3D'+rt+'&cnzz_eid=3D'=
++escape(cnzz_eid)+'&showp=3D'+escape(screen.width+'x'+screen.height)+'&st=
+=3D'+cnzz_st+'&sin=3D'+escape(cnzz_sin.substr(0,512))+'&res=3D0';=0A=
+document.write('<a =
+href=3D"http://www.cnzz.com/stat/website.php?web_id=3D1793701" =
+target=3D_blank title=3D"&#31449;&#38271;&#32479;&#35745;"><img =
+border=3D0 hspace=3D0 vspace=3D0 src=3D"http://icon.cnzz.com/pic1.gif" =
+/></a>');=0A=
+document.write('<img =
+src=3D"http://b159.cnzz.com/stat.htm?id=3D1793701'+cnzz_data+'" =
+border=3D0 width=3D0 height=3D0 />');=0A=
+=0A=
+var =
+cnzz_et=3D(86400-cnzz_ed.getHours()*3600-cnzz_ed.getMinutes()*60-cnzz_ed.=
+getSeconds());=0A=
+cnzz_ed.setTime(cnzz_now+1000*(cnzz_et-cnzz_ed.getTimezoneOffset()*60));=0A=
+document.cookie=3D"cnzz_a1793701=3D"+cnzz_a+";expires=3D"+cnzz_ed.toGMTSt=
+ring()+ "; path=3D/";=0A=
+document.cookie=3D"sin1793701=3D"+escape(cnzz_sin)+ =
+";expires=3D"+cnzz_ed.toGMTString()+";path=3D/";=0A=
+cnzz_ed.setTime(cnzz_now+1000*86400*182);=0A=
+document.cookie=3D"rtime=3D"+rt+";expires=3D"+cnzz_ed.toGMTString()+ =
+";path=3D/";=0A=
+document.cookie=3D"ltime=3D"+cnzz_now+";expires=3D" + =
+cnzz_ed.toGMTString()+ ";path=3D/";=0A=
+document.cookie=3D"cnzz_eid=3D"+escape(cnzz_eid)+ =
+";expires=3D"+cnzz_ed.toGMTString()+";path=3D/";=0A=
+
+------=_NextPart_000_0000_01CAD1E2.582A4620--

@@ -1,0 +1,27 @@
+    // 如果const位于星号的左侧，则const就是用来修饰指针所指向的变量，即指针指向为常量；
+    int const * b2 = &a;
+    const int * b1 = &a;
+    // 因此，[1]和[2]的情况相同，都是指针所指向的内容为常量（const放在变量声明符的位置无关），
+    // 这种情况下不允许对内容进行更改操作，如不能*a = 3 ；
+    *b1 = 4; // complie error
+    *b2 = 4; // complie error
+    
+    //如果const位于星号的右侧，const就是修饰指针本身，即指针本身是常量。
+    //[3]为指针本身是常量，而指针所指向的内容不是常量，这种情况下不能对指针本身进行更改操作，如a++是错误的；
+    int* const b3 = &a;
+    *b3 = 4;
+    b3++;  // complie error
+    
+    // [4]为指针本身和指向的内容均为常量。 
+    const int* const b4 = &a;
+
+
+类成员函数声明为const的语法：const关键字要放在括号后面
+由于const对象在调用成员函数的时候，会将this指针强行转换为const this，所以它将无法找到相应的const get函数，并且编译器也无法将一个const的对象转化为一个普通对象来调用这个普通的get方法，所以就会产生编译错误。
+
+class MyClass
+{
+public:
+    void  print() const {cout <<"const print."<<endl;}
+    void  print() {cout << "not const print."<<endl;}
+}
